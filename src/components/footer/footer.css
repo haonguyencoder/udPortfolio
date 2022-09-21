@@ -1,0 +1,92 @@
+footer {
+    background: var(--color-text);
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 7rem;
+}
+
+footer a {
+    color: var(--color-white);
+}
+
+footer a:hover {
+    color: var(--color-primary);
+}
+
+.footer__logo {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.permalinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
+}
+
+.footer__socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.footer__socials a {
+    background: var(--color-primary);
+    color: var(--color-white);
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+    transform: scale(0.9);
+}
+
+.footer__socials-icon-1:hover {
+    background: #1773EA;
+    color: var(--color-white);
+    transform: scale(1.1);
+    box-shadow: 0 0 35px #1773EA;
+}
+
+.footer__socials-icon-2:hover {
+    background: linear-gradient(200deg,#8C5CB3,#E70D1F, #F5BD0C);
+    color: var(--color-white);
+    transform: scale(1.1);
+    box-shadow: 0 0 35px #1773EA;
+}
+
+.footer__socials-icon-3:hover {
+    background: #F70000;
+    color: var(--color-white);
+    transform: scale(1.1);
+    box-shadow: 0 0 35px #F70000;
+}
+
+.footer__socials-icon-4:hover {
+    background: #1C9CEA;
+    color: var(--color-white);
+    transform: scale(1.1);
+    box-shadow: 0 0 35px #1773EA;
+}
+
+.footer__copyright {
+    margin-bottom: 4rem;
+    color: var(--color-white);
+}
+
+/* ====================== MEDIA QUERIES (SMALL DEVICES) ================================ */
+@media screen and (max-width: 600px) {
+    .permalinks {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer__socials {
+        margin-bottom: 2.6rem;
+    }
+}

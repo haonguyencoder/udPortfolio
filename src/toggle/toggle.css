@@ -1,0 +1,23 @@
+.toggle {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+    position: relative;
+    padding: 2px;
+    cursor: pointer;
+    text-align: center;
+    z-index: 2;
+    max-width: fit-content;
+}
+
+.toggle>* {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: hsl(47, 99%, 68%);
+}
+
+.t-button {
+    border-radius: 100%;
+    background: orange;
+    position: absolute;
+}
