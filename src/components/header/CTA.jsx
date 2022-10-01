@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/MyCV.pdf'
+import CV from '../../assets/HaoNguyen_FE.pdf'
 import {FiDownload} from 'react-icons/fi'
 
 const CTA = () => {
