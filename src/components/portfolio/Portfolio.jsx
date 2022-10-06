@@ -12,7 +12,7 @@ const data = [
     image: IMG1,
     title: 'E-COMMERCE Website',
     github: 'https:/github.comhttps://github.com/RuddyDL/Ecommerce',
-    demo: 'https://ruddydev.netlify.app/'
+    demo: 'https://ecommercewebsite-zeta.vercel.app/'
   },
   {
     id: 2,
